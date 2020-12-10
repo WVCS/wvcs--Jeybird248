@@ -1,3 +1,24 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  background: #2f3061;
+  color: #f7fff7;
+  font-family: "Comic Sans MS", cursive;
+}
+h2 {
+  font-size: 3em;
+}
+img {
+  height: 250px;
+  width: 250px;
+}
+section {
+  display: block;
+}
+p {
+  color: #f7fff7;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -18,14 +39,25 @@ li a {
   float: left;
   
 }
-  h1 {
-    color:white;
-    text-align:center;
-}
- p{
-    color:white;
- }
-body {
-    background: #2f3061;
-  }
 
+#myprojects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  text-align: center;
+}
+
+#profile {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+}
+@media (max-width: 300px) {
+  #welcome-section {
+    height: 1em;
+  }
+}
