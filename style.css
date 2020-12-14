@@ -6,9 +6,6 @@ html {
   color: #f7fff7;
   font-family: "Comic Sans MS", cursive;
 }
-li:hover {
-  opacity:0.5;
-}
 h2 {
   font-size: 3em;
 }
@@ -58,6 +55,9 @@ li a {
   align-items: center;
   width: 100%;
   height: 50vh;
+}
+#hover-bar {
+  opacity: 0.5;
 }
 @media (max-width: 300px) {
   #welcome-section {
