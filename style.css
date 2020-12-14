@@ -6,6 +6,9 @@ html {
   color: #f7fff7;
   font-family: "Comic Sans MS", cursive;
 }
+li:hover {
+  opacity:0.5;
+}
 h2 {
   font-size: 3em;
 }
