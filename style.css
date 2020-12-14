@@ -59,8 +59,9 @@ li a {
 #hover-bar:hover {
   opacity: 0.5;
 }
-@media (max-width: 300px) {
-  #welcome-section {
-    height: 1em;
+@media (max-width: 1500px) {
+  #myprojects {
+  grid-template-columns: repeat(1, 1fr);
+  text-align: center;
   }
 }
