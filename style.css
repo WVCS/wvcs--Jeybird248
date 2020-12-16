@@ -59,6 +59,17 @@ li a {
 #hover-bar:hover {
   opacity: 0.5;
 }
+#sticky {
+  text-decoration: none;
+  font-size: 20px;
+  text-align:center;
+  background-color: gold;
+  position:sticky;
+  top:50%;
+  right: 15px;
+  max-width: 10%;
+  height: 110px;
+}
 @media (max-width: 1500px) {
   #myprojects {
   grid-template-columns: repeat(1, 1fr);
